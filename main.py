@@ -7,6 +7,7 @@ def sd(sec):
     sec %= 60
     print(f'{days}:{hours}:{min}:{sec}')
 
-#сделать ввод с клавы
 
-sd(1000000)
+seconds = int(input("сколько секунд? : "))
+sd(seconds)
+
